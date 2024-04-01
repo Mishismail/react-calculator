@@ -1,10 +1,10 @@
 //Calculator.js
 
 import React, { useState } from "react";
-import Wrapper from "./components/Wrapper/Wrapper";
-import Screen from "./components/Screen/Screen";
-import ButtonBox from "./components/ButtonBox/ButtonBox";
-import Button from "./components/Button/Button";
+import Wrapper from "./components/Wrapper.js";
+import Screen from "./components/Screen.js";
+import ButtonBox from "./components/ButtonBox.js";
+import Button from "./components/Button.js";
 
 const Calculator = () => {
   const [value, setValue] = useState("");
